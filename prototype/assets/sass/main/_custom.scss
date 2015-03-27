@@ -1,0 +1,39 @@
+@import url("//fonts.googleapis.com/css?family=Lato:300,400,500");
+
+$navbar-ocni-height:  350px;
+$navbar-ocni-margin-top:  -48px;
+
+.navbar-ocni {
+  border-radius: 0px
+}
+
+.header-ocni {
+  margin: 15px 0 15px 0
+}
+
+.jumbotron-ocni {
+  position: relative;
+  overflow: hidden;
+  height: $navbar-ocni-height;
+
+  img {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -48px;
+  }
+
+  p {
+    color: aliceblue;
+    text-transform: uppercase;
+  }
+
+  .shadow {
+    background-color: rgba(49, 49, 49, 0.75);
+    padding: 15px;
+    height: $navbar-ocni-height + $navbar-ocni-margin-top;
+  }
+}
+
+h2 {
+  color: #1e5195;
+}
