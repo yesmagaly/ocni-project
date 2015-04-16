@@ -3,6 +3,11 @@
 $navbar-ocni-height:  350px;
 $navbar-ocni-margin-top:  -48px;
 
+
+body {
+  background-image: url("../images/bg.jpg");
+}
+
 .navbar-ocni {
   border-radius: 0px
 }
@@ -46,7 +51,9 @@ h2 {
 
 .footer {
   background-color: #006fb0;
-  padding-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 20px;
 }
 
 .sub-footer {
